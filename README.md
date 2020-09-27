@@ -1,5 +1,8 @@
 # Docker-Example
 
+watch this video for step by step instruction
+https://youtu.be/FLK9--xu6Yg
+
 follow this step by step
 
 1--#install docker for windows
