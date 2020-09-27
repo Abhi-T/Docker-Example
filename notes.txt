@@ -1,0 +1,28 @@
+#install docker for windows
+https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+
+docker build -t mytest .
+C:\Users\Public\Documents\Hyper-V\Virtual hard disks\
+
+docker images
+
+docker ps
+
+docker run -d -p 5000:5000 mytest
+
+
+Docker Settings > Advanced > Change "Disk image location"
+
+#remove by image id
+docker rmi image <image-id>
+
+#logs
+
+docker logs mytest
+
+#remove forcefully
+docker rmi -f imageid
+
+#stop running container
+docker ps # to find container id
+docker stop container-id
